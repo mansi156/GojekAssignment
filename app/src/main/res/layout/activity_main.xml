@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"/>
+</com.google.android.material.appbar.AppBarLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include layout="@layout/github_list_placeholder_item"/>
+            <include layout="@layout/github_list_placeholder_item"/>
+            <include layout="@layout/github_list_placeholder_item"/>
+            <include layout="@layout/github_list_placeholder_item"/>
+            <include layout="@layout/github_list_placeholder_item"/>
+            <include layout="@layout/github_list_placeholder_item"/>
+            <include layout="@layout/github_list_placeholder_item"/>
+            <include layout="@layout/github_list_placeholder_item"/>
+            <include layout="@layout/github_list_placeholder_item"/>
+            <include layout="@layout/github_list_placeholder_item"/>
+            <include layout="@layout/github_list_placeholder_item"/>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
