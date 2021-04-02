@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_size">56dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_21">21dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_36">36dp</dimen>
+    <dimen name="image_thumbnail_size">32dp</dimen>
+    <dimen name="shimmer_title_width">100dp</dimen>
+    <dimen name="shimmer_title_height">8dp</dimen>
+    <dimen name="shimmer_subtitle_width">260dp</dimen>
+    <dimen name="more_icon_size">24dp</dimen>
+    <!--text sizes-->
+    <dimen name="toolbar_title_size">21sp</dimen>
+
+
+</resources>
